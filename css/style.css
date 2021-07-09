@@ -1,8 +1,55 @@
 /*Reset*/
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Body*/
+
+body {
+    background-color: #1a1a1a;
+    color:white;
+    font-size: 12px;
+}
+
+/*Header*/
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.rec-cont, .shield-cont {
+    display: inline-block;
+    background-color: #101010;
+}
+
+.shield-cont {
+   
+    padding: 1px;
+    margin-right: 3px;
+}
+
+
+
+.fa-shield-alt {
+    color:#23d959;
+}
+
+
+.fa-record-vinyl {
+    color: #9e9e9e;
+    margin-right: 4px;
+}
+
+.view-cont {
+    background-color: #212122;
+    border-radius: 5px;
+    padding: 3px;
+}
+.fa-border-all {
+    margin-right: 4px;
+}
